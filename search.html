@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Search - Blair Maps</title>
+    </head>
+    <body>
+        <header>
+            <h1>Blair Maps</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="search.html">Search</a></li>
+                    <li><a href="maps.html">Maps</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <main id="search">
+            <h2>Search for the shortest path!</h2>
+            <p>Check how to quickly get to your next class.</p>
+            <div class="form-container">
+                <form id="room-form">
+                    <input type="text" id="room1" placeholder="Enter Starting Room" required>
+                    <input type="text" id="room2" placeholder="Enter End Room" required>
+                    <button type="submit" class="button">Submit</button>
+                </form>
+                <p id="response-message"></p>
+            </div>
+        </main>
+        
+        <footer>
+            <p>2025 Blair Maps. Site made by Ashley Zhang.</p>
+        </footer>
+    </body>
+    <script type="module" src="/src/search.jsx"></script>
+</html>

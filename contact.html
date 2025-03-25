@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Contact Us - Blair Mpas</title>
+    </head>
+    <body>
+        <header>
+            <h1>Blair Maps</h1>
+            <nav>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="search.html">Search</a></li>
+                    <li><a href="maps.html">Maps</a></li>
+                    <li><a href="contact.html">Contact Us</a></li>
+                </ul>
+            </nav>
+        </header>
+        
+        <main id="contact">
+            <h2>Contact Us</h2>
+            <p>Have a question or feedback? Reach out to us!</p>
+            <div class="form-container">
+                <form id="contact-form">
+                    <input type="text" id="name" placeholder="Your Name" required>
+                    <input type="email" id="email" placeholder="Your Email" required>
+                    <textarea id="message" placeholder="Your Message" rows="5" required></textarea>
+                    <button type="submit" class="button">Send</button>
+                </form>
+                <p id="response-message" style="color: green; display: none;">Thank you for contacting us!</p>
+            </div>
+        </main>
+        
+        <footer>
+            <p>2025 Blair Maps. Site made by Ashley Zhang.</p>
+        </footer>
+    </body>
+    <script type="module" src="/src/contact.jsx"></script>    
+</html>
